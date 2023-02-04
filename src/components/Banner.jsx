@@ -1,9 +1,11 @@
+import { bannerImage } from "../../constant";
+
 const Banner = () => {
   return (
     <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[450px]">
       <img
         className="object-fill h-full w-full"
-        src="https://links.papareact.com/0fm"
+        src={bannerImage}
         alt="Banner Image"
       />
       <div className="absolute top-1/2 w-full text-center">

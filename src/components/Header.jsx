@@ -21,7 +21,7 @@ const Header = () => {
           placeholder="start your search"
           className="flex-grow pl-4 bg-transparent outline-none cursor-pointer"
         />
-        <MagnifyingGlassCircleIcon className="hidden text-red-900  h-10 p-0.5 cursor-pointer md:inline-flex md:mx-2" />
+        <MagnifyingGlassCircleIcon className="hidden text-[#7115CD] h-10 p-0.5 cursor-pointer md:inline-flex md:mx-2" />
       </div>
 
       {/* Right */}
