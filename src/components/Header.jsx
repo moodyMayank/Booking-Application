@@ -1,7 +1,7 @@
 import hwlogo from "../assets/hwlogo.png";
 import { useState } from "react";
 import { DateRangePicker } from "react-date-range";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import {
   MagnifyingGlassCircleIcon,

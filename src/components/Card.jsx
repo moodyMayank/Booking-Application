@@ -11,7 +11,6 @@ import SmallCard from "./SmallCard";
 const Card = () => {
   const [smCardData, setSmCardData] = useState([]);
   const [mdCardData, setMdCardData] = useState([]);
-  const [lgCardData, setLgCardData] = useState([]);
 
   useEffect(() => {
     Promise.all([fetch(exploreDataAPI), fetch(liveNearByDataAPI)])
